@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  rootName = 'Daniel Ra';
+
+  // 22. Listening to your Custom Events
+  onNameChanged(newName) {
+    this.rootName = newName;
+  }
+
 }
